@@ -4,7 +4,7 @@ using namespace std;
 int main(void)
 {
 	int i, j, k, n;
-	cout << "n°ª ÀÔ·Â : ";
+	cout << "ìˆ«ìž ìž…ë ¥ : ";
 	cin >> n;
 
 	for (k = 1; k <= n; k++)
