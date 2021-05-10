@@ -6,6 +6,6 @@ int main(void)
 	int a = 10;
 	int* ptr = &a;
 
-	cout << "º¯¼ö aÀÇ ÁÖ¼Ò´Â : " << ptr << endl;
-	cout << "aÀÇ °ªÀº : " << *ptr << endl;
+	cout << "ë³€ìˆ˜ Aì˜ ì£¼ì†ŒëŠ” : " << ptr << endl;
+	cout << "aì˜ ê°’ì€ : " << *ptr << endl;
 }
