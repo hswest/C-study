@@ -47,5 +47,5 @@ int main()
 	Sample s(10);
 	s.read();
 	s.write();
-	cout << "°¡Àå Å« ¼ö´Â" << s.big() << endl;
+	cout << "Â°Â¡Ã€Ã¥ Ã…Â« Â¼Ã¶Â´Ã‚" << s.big() << endl;
 }
