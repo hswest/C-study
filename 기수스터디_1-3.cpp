@@ -1,6 +1,7 @@
 #include <iostream>
 #include <memory>
 using namespace std;
+#define_CRT_SECURE_NO_WARNINGS
 
 class Test
 {
@@ -10,18 +11,18 @@ public:
 
 	void printINFO()
 	{
-		cout << "ÀÌ¸§" << name << endl;
-		cout << "ÇÐ³â" << grade << endl;
+		cout << "ì´ë¦„" << name << endl;
+		cout << "í•™ë…„" << grade << endl;
 	}
 
 	Test()
 	{
-		cout << "»ý¼ºÀÚ È£Ãâ" << endl;
+		cout << "ìƒì„±ìž í˜¸ì¶œ" << endl;
 	}
 
 	Test(const Test& _Value)
 	{
-		cout << "º¹»ç »ý¼ºÀÚ È£Ãâ" << endl;
+		cout << "ë³µì‚¬ ìƒì„±ìž í˜¸ì¶œ" << endl;
 		int len = strlen(_Value.name);
 		this->name = new char[len + 1];
 		strcpy(this->name, _Value.name);
@@ -30,7 +31,7 @@ public:
 
 	~Test()
 	{
-		cout << "¼Ò¸êÀÚ È£Ãâ" << endl;
+		cout << "ì†Œë©¸ìž í˜¸ì¶œ" << endl;
 	}
 };
 
@@ -45,7 +46,7 @@ int main()
 
 	Test B = A;
 
-	cout << "B = A ÀÌÈÄ AÀÇ Á¤º¸¸¦ º¯°æÇÏ¸é?" << endl;
+	cout << "B = A ì´í›„ Aì˜ ì •ë³´ë¥¼ ë³€ê²½í•˜ë©´?" << endl;
 
 	strcpy_s(A.name, 6, "SWUNI");
 	A.grade = 3;
