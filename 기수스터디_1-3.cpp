@@ -1,7 +1,7 @@
 #include <iostream>
 #include <memory>
 using namespace std;
-#define_CRT_SECURE_NO_WARNINGS
+#define _CRT_SECURE_NO_WARNINGS
 
 class Test
 {
