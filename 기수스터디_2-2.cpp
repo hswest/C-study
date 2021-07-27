@@ -5,12 +5,12 @@ int main()
 {
 	int* p = new int[10];
 	double sum = 0;
-	cout << "Á¤¼ö 10°³ ÀÔ·ÂÇØÁÖ¼¼¿ä" << endl;
+	cout << "ì •ìˆ˜ 10ê°œ ì…ë ¥í•´ì£¼ì„¸ìš”" << endl;
 	for (int i = 0; i < 10; i++)
 	{
 		cin >> p[i];
 		sum += p[i];
 	}
-	cout << "Æò±Õ " << sum / 10;
+	cout << "í‰ê·  " << sum / 10;
 	delete[] p;
 }
