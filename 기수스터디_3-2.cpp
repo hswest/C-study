@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int a[90];
+long a[90];
 
 int main()
 {
